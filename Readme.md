@@ -15,7 +15,7 @@
 ![alt text](about.png)
 
 # Contact
-
+![alt text](contact.png)
 
 # Form
 ![alt text](form.png)
