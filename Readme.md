@@ -1,5 +1,5 @@
 # UTS - Pertemuan ke 8
-# Tugas Pertemuan ke 8 { UTS } <img src=https://logos-download.com/wp-content/uploads/2016/05/MySQL_logo_logotype.png width="130px" >
+# Tugas Pertemuan ke 8 { UTS }
 
 
 |**Nama**|**NIM**|**Kelas**|**Matkul**|
