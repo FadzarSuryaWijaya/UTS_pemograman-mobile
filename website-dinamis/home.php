@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="id">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contoh Card Bootstrap 5</title>
-    <!-- Link CSS Bootstrap 5 -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .fade1,
-        .fade2 {
-            content: '';
-            height: 350px;
-            width: 350px;
-            border-radius: 50%;
-            background: linear-gradient(160deg, #6a0572, #14a2cd);
-            position: absolute;
-            top: -100px;
-            left: -20px;
-            filter: blur(150px);
-            z-index: -100;
-        }
-
-        .fade2 {
-            top: 350px;
-            left: 800px;
-            height: 450px;
-            width: 450px;
-            filter: blur(250px);
-        }
-    </style>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contoh Card Bootstrap 5</title>
+        <!-- Link CSS Bootstrap 5 -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .fade1,
+            .fade2 {
+                content: '';
+                height: 350px;
+                width: 350px;
+                border-radius: 50%;
+                background: linear-gradient(160deg, #6a0572, #14a2cd);
+                position: absolute;
+                top: -100px;
+                left: -20px;
+                filter: blur(150px);
+                z-index: -100;
+            }
+            
+            .fade2 {
+                top: 350px;
+                left: 800px;
+                height: 450px;
+                width: 450px;
+                filter: blur(250px);
+            }
+            </style>
 </head>
 
 <body>
     <span class="fade1"></span>
     <span class="fade2"></span>
-
+    <!-- Menampilkan DataTables default -->
+    <?php include "includes/datatables.php" ?>
+    <!-- Menampilkan DataTables default -->
     <div class="card-group">
         <div class="card">
             <img src="includes/g/vw.png" class="card-img-top" alt="...">
@@ -91,5 +93,3 @@
 </body>
 
 </html>
-
-<?php include "includes/datatables.php" ?>
