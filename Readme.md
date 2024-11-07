@@ -79,6 +79,19 @@
 
 ![alt text](about.png)
 >Halaman About Portofolio Sang Pengguna, Menggunakan Typed.js untuk menambah user experience
+```
+    <script>
+        const typed = new Typed(".multi-text", {
+            strings: ["Programmer", "Developer", "Coder"],
+            typeSpeed: 70,
+            backSpeed: 70,
+            backDelay: 1000,
+            loop: true,
+        });
+    </script>
+
+<!-- Codingan lebih lengkap ada pada about.php dan style.css -->
+```
 
 ## Contact
 
@@ -144,4 +157,4 @@
 
 ![alt text](datatables.png)
 > Menambah dan mengintegrasikan Data Tables.
- Silahkan kunjungi website berikut ini untuk informasi lebih lanjut: " <a href="https://datatables.net/examples/styling/bootstrap5" alt="bootstrap5datatables"> Datatables Bootsrap 5</a> "
+<br>Silahkan kunjungi website berikut ini untuk informasi lebih lanjut: " <a href="https://datatables.net/examples/styling/bootstrap5" alt="bootstrap5datatables"> Datatables Bootsrap 5</a> "
